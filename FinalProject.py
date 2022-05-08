@@ -103,6 +103,8 @@ import cv2
 import os
 import torch
 from IPython.display import Image  # for displaying images
+from google_utils import *  # for downloading models/datasetsprint('torch %s %s' % (torch.__version__, torch.cuda.get_device_properties(0) if torch.cuda.is_available() else 'CPU'))
+from pathlib import Path
 import random
 from PIL import Image, ImageDraw
 import matplotlib.pyplot as plt
@@ -118,6 +120,10 @@ st.title("Cover Album Detection via Feature Matching and CNN")
 st.write("Here is the dataset used in this analysis:") 
 
 image_file = st.file_uploader("Upload Your Image", type=['jpg', 'png', 'jpeg'])
+
+image = cv2.imread(image_file)
+
+st.image([image])
 
 exit()
 #def images_from_path():
