@@ -3,3 +3,6 @@ opencv-python-headless
 
 torch
 torchvision
+matplotlib.pyplot
+matplotlib
+numpy
