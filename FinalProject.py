@@ -103,8 +103,6 @@ import cv2
 import os
 import torch
 from IPython.display import Image  # for displaying images
-from google_utils import *  # for downloading models/datasetsprint('torch %s %s' % (torch.__version__, torch.cuda.get_device_properties(0) if torch.cuda.is_available() else 'CPU'))
-from pathlib import Path
 import random
 from PIL import Image, ImageDraw
 import matplotlib.pyplot as plt
