@@ -119,9 +119,11 @@ st.write("Here is the dataset used in this analysis:")
 
 image_file = st.file_uploader("Upload Your Image", type=['jpg', 'png', 'jpeg'])
 
-image = cv2.imread(image_file)
 
-st.image([image])
+original_image = Image.open(image_file)
+original_image = np.array(original_image)
+
+st.image([original_image])
 
 exit()
 #def images_from_path():
