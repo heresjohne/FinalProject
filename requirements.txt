@@ -1,8 +1,7 @@
 numpy
 opencv-python-headless
-
+matplotlib
 torch
 torchvision
 matplotlib.pyplot
-matplotlib
 numpy
