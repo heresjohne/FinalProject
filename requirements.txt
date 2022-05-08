@@ -1,6 +1,3 @@
 numpy
 opencv-python-headless
 torch
-PIL
-numpy
-pandas
