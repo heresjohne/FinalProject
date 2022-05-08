@@ -1,6 +1,5 @@
 numpy
 opencv-python-headless
--master file
-requirements.txt
+
 torch
 torchvision
